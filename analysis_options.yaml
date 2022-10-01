@@ -7,3 +7,8 @@ analyzer:
     - 'tool/google_localizer/**'
     - 'lib/generated_plugin_registrant.dart'
     - '**/*.select.dart'
+
+linter:
+ rules:
+  lines_longer_than_80_chars: false,
+  avoid_positional_boolean_parameters: false,
